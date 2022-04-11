@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.shape1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 76);
+    margin: 40px;
+    transition: all 1s ease-in-out;
+}
+.shape2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(208, 255, 0);
+    margin: 40px;
+    transition: all 1s ease-in-out;
+    border-radius: 0 25px 0 25px;
+}
+.shape3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 40px;
+    transition: all 1s ease-in-out;
+    border-radius: 0 50px 0 25px;
+}
+.shape1:hover{
+    transform: rotate(300deg);
+}
+.shape2:hover{
+    transform: rotate(300deg);
+}
+.shape3:hover{
+    transform: rotate(300deg);
+}
