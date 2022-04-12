@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: red;
+} */
+.container{
+    
+    display: grid;
+    
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 60px 650px 650px 150px;
+    grid-template-areas: 
+    "header header"
+    "sidevar pageOne"
+    "sidevar pageTwo"
+    "footer footer";
+   
+}
+
+
+.header{
+    grid: header;
+    background-color: rgb(2, 2, 88);
+}
+.pageOne{
+    grid: pageOne;
+    background-color: rgb(88, 75, 2);
+}
+.pageTwo{
+    grid: pageTwo;
+    background-color: rgb(88, 2, 2);
+}
+.sidevar{
+    grid: sidevar;
+    background-color: rgb(102, 255, 0);
+}
+.footer{
+    grid: footer;
+    background-color: rgb(31, 31, 31);
+}
