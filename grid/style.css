@@ -22,22 +22,22 @@
 
 
 .header{
-    grid: header;
+    grid-area: header;
     background-color: rgb(2, 2, 88);
 }
 .pageOne{
-    grid: pageOne;
+    grid-area: pageOne;
     background-color: rgb(88, 75, 2);
 }
 .pageTwo{
-    grid: pageTwo;
+    grid-area: pageTwo;
     background-color: rgb(88, 2, 2);
 }
 .sidevar{
-    grid: sidevar;
+    grid-area: sidevar;
     background-color: rgb(102, 255, 0);
 }
 .footer{
-    grid: footer;
+    grid-area: footer;
     background-color: rgb(31, 31, 31);
 }
